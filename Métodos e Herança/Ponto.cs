@@ -24,6 +24,7 @@ namespace Classes.Heranca
 
         public virtual CalcularDistancia3()  //este método pode ser sobrescrito na classe filha (alterado)
         {
+            int i = 0;
             //Faz alguma ação
         }
     }
