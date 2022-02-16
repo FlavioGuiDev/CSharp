@@ -1,0 +1,5 @@
+C:\Git\CSharp\Métodos e Herança\obj\Debug\net6.0\Métodos e Herança.csproj.AssemblyReference.cache
+C:\Git\CSharp\Métodos e Herança\obj\Debug\net6.0\Métodos e Herança.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\CSharp\Métodos e Herança\obj\Debug\net6.0\Métodos e Herança.AssemblyInfoInputs.cache
+C:\Git\CSharp\Métodos e Herança\obj\Debug\net6.0\Métodos e Herança.AssemblyInfo.cs
+C:\Git\CSharp\Métodos e Herança\obj\Debug\net6.0\Métodos e Herança.csproj.CoreCompileInputs.cache
