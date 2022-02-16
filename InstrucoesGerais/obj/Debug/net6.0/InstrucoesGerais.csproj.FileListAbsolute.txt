@@ -1,0 +1,15 @@
+C:\Git\CSharp\InstrucoesGerais\bin\Debug\net6.0\InstrucoesGerais.exe
+C:\Git\CSharp\InstrucoesGerais\bin\Debug\net6.0\InstrucoesGerais.deps.json
+C:\Git\CSharp\InstrucoesGerais\bin\Debug\net6.0\InstrucoesGerais.runtimeconfig.json
+C:\Git\CSharp\InstrucoesGerais\bin\Debug\net6.0\InstrucoesGerais.dll
+C:\Git\CSharp\InstrucoesGerais\bin\Debug\net6.0\ref\InstrucoesGerais.dll
+C:\Git\CSharp\InstrucoesGerais\bin\Debug\net6.0\InstrucoesGerais.pdb
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.csproj.AssemblyReference.cache
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.AssemblyInfoInputs.cache
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.AssemblyInfo.cs
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.csproj.CoreCompileInputs.cache
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.dll
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\ref\InstrucoesGerais.dll
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.pdb
+C:\Git\CSharp\InstrucoesGerais\obj\Debug\net6.0\InstrucoesGerais.genruntimeconfig.cache
