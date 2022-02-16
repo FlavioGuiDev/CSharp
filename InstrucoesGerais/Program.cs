@@ -1,3 +1,5 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
 namespace Instrucoes
 {
     class Program
@@ -169,6 +171,24 @@ namespace Instrucoes
             }
             //após escrever as três linhas acima, e finalizar o using, automaticamente o w será eliminado
             //da memória 
+        }
+
+        //Agora, vamos comparar o mesmo código escrito em uma classe e em uma struct:
+        public static void Main()
+        {
+            Ponto[] pontos = new Ponto[100];    //construtor
+            for(int i = 0; i < 100; i++)
+                pontos[i] = new Ponto(i, i);
+        }
+
+        public struct Ponto
+        {
+            public int x, y;
+            public Ponto(int x, int y)
+            {
+                this.x = x;
+                this.y = y;
+            }
         }
     }
 }
