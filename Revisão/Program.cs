@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Revisao
 {
     class Program
@@ -41,7 +40,46 @@ namespace Revisao
                         }
                        break;
                     case "3":   //calcular média geral
+                        decimal notaTotal = 0;
+                        var nrAlunos = 0;
+                        for(int i = 0; i < alunos.Length;i++)
+                        {
+                            if(!string.IsNullOrEmpty(alunos[i].Nome))
+                            {
+                                notaTotal = notaTotal + alunos[i].Nota;
+                                nrAlunos++;
+                            }     
+                        }
 
+                        var mediaGeral = notaTotal / nrAlunos;
+                        Conceito conceitoGeral;
+                        if (mediaGeral < 2)
+                        {
+                            conceitoGeral = Conceito.E;
+                        }
+                        else if(mediaGeral < 4)
+                        {
+                            conceitoGeral = Conceito.D;
+                        }
+                        else if(mediaGeral < 6)
+                        {
+                            conceitoGeral = Conceito.C;
+                        }
+                        else if(mediaGeral < 8)
+                        {
+                            conceitoGeral = Conceito.B;
+                        }
+                        else if(mediaGeral < 10)
+                        {
+                            conceitoGeral = Conceito.A;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Não foi possível calcular o conceito");
+                            return;
+                        } 
+                        var x = conceitoGeral;
+                        Console.WriteLine($"MÉDIA GERAL: {mediaGeral} - CONCEITO {conceitoGeral}");                        
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
