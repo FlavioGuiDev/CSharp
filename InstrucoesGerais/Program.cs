@@ -190,5 +190,58 @@ namespace Instrucoes
                 this.y = y;
             }
         }
+
+        //Exemplos com interfaces:
+        interface Icontrol
+        {
+            void Paint();
+        }
+
+        interface IListBox
+        {
+            void SetText(string text);
+        }
+        interface IComboBox: Icontrol, IListBox{}   //esta interface herda os métodos das duas anteriores, que devem ser obrigatoriamente implementados
+
+        interface IDataBound
+        {
+            void Bind(Binder b);
+        }
+
+        public class EditBox: IComboBox, IDataBound
+        {
+            public void Paint() {}  //método da primeira interface
+            public void SetText(string text) {}     //método da segunda interface
+            
+            public void Bind(Binder b){}    //método da quarta classe
+        }
+        //uso do enum:
+        enum Cor
+        {
+            Vermelho, 
+            Verde, 
+            Azul
+        }
+
+        static void EscreverCor(Cor cor)
+        {
+            switch(cor)
+            {
+                case Cor.Vermelho:
+                    Console.WriteLine("Vermelho");
+                    break;
+                case Cor.Verde:
+                    Console.WriteLine("Verde");
+                    break;
+            }
+        }
+
+        //outro exemplo de enum:
+        enum Alinhamento: sbyte
+        {
+            Esquerda = -1,
+            Centro = 0,
+            Direita = 1
+        }
     }
 }
